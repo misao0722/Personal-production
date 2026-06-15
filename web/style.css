@@ -42,7 +42,7 @@ padding: 0;
 
 .hero{
     background-color: white;
-    font-family:  "Hachi Maru Pop", cursive;
+    font-family:  "Zen Maru Gothic", sans-serif;
 }
 
 .rogo{
@@ -70,7 +70,7 @@ margin-top: 300px;
     position: relative;
     top: 180px;
     font-size: 30px;
-    font-family:  "Hachi Maru Pop", cursive;
+    font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .reservation{
@@ -150,7 +150,7 @@ margin-top: 300px;
     display: flex;
     align-items: center;
     margin-top: 2px;
-    font-family:  "Hachi Maru Pop", cursive;
+    font-family:  "Zen Maru Gothic", sans-serif;
 }
 
 .section-title{
@@ -159,7 +159,7 @@ margin-top: 300px;
     border-radius: 0px;
     background-color: burlywood;
     margin-top: 500px;
-    font-family:  "Hachi Maru Pop", cursive;
+    font-family: "Zen Maru Gothic", sans-serif;
     
 }
 
@@ -224,7 +224,7 @@ margin-top: 300px;
 
 .cafe-menu{
     margin-top: 100px;
-    font-family:  "Hachi Maru Pop", cursive;
+    font-family:  "Zen Maru Gothic", sans-serif;
 }
 
 .grand-menu-content{
@@ -323,7 +323,7 @@ text-align: center;
     align-items: center;
     padding: 40px 20px;
     margin-top: 100px;
-    font-family: "Hachi Maru Pop", cursive;
+    font-family:"Zen Maru Gothic", sans-serif;
     position: relative;
 }
 
@@ -386,4 +386,140 @@ text-align: center;
 .site-footer-small{
     text-align: center;
     color: saddlebrown;
+}
+
+@media (max-width: 768px) {
+ 
+ body {
+   font-size: 14px;
+   overflow-x: hidden;
+ }
+ .container {
+   width: 100%;
+   padding: 0 15px;
+ }
+
+  .shop-name {
+   font-size: 24px;
+ }
+ 
+ p, h1, h2, h3 {
+   word-break: break-all;
+ }
+ 
+ .site-nav {
+   flex-direction: row;
+   align-items: center;
+   gap: 15px;
+   flex-wrap: wrap;
+ }
+ 
+ .site-header {
+   width: 100dvw;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+   margin-left: 0;
+   margin-right: 0;
+   height: 300px;
+ }
+
+ .Store-interior{
+    margin-top: 60px;
+ }
+ 
+ .Recommended-menu-wrapper {
+   flex-direction: column;
+ }
+ .menu {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+ }
+ 
+ .dogs-slider-wrapper {
+   flex-direction: column;
+ }
+ .dogs {
+   width: 100%;
+ }
+
+ .grand-menu {
+   margin-top: 0;
+ }
+
+ .grand-menu-content {
+   margin-top: 0;
+ }
+ 
+ .map {
+   width: 100%;
+   height: auto;
+ }
+
+  .rogo {
+   width: 200px;
+   margin-top: 80px;
+ }
+
+  .lead-center {
+   font-size: 13px;
+   font-weight: bold;
+   top: 0;
+ }
+
+ .hero{
+    margin-top: 20px;
+ }
+
+ .reservation {
+    position: static;
+   top: 0;
+   text-align: center;
+ }
+
+ .reservation a{
+    font-size: 13px;
+ }
+
+ .Store-interior{
+    margin-top: -20px;
+ }
+
+ .Store-interior-title{
+    font-size: 18px;
+
+ }
+
+ .Store-interior-explanation{
+    font-size: 14px;
+ }
+
+  .Operating-hours {
+   font-size: 16px;
+   margin-top: 20px;
+ }
+
+ .interior {
+   width: 100%;
+   height: auto;
+ }
+
+  .shift-text {
+   font-size: 16px;
+ }
+
+ .grand-menu {
+   margin-top: 0;
+ }
+
+  .cop {
+   width: 200px;
+ }
+
+  .dog-footprints {
+   width: 150px;
+   bottom: 0;
+ }
 }
