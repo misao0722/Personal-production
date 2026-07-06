@@ -59,7 +59,7 @@ padding: 0;
 max-width: 1300px;
 margin: 0 auto;
 padding: 40px;
-border: 4px solid #d9c97a;
+border: 4px solid #d8cd8a;
 position: relative;
 margin-top: 300px;
 
@@ -433,6 +433,10 @@ text-align: center;
     margin-top: 40px !important;
  }
 
+ .Store-interior-content{
+    margin-top: 30px;
+ }
+
  .heads-up{
     font-size: 16px;
  }
@@ -533,7 +537,7 @@ text-align: center;
     font-size: 15px;
     position: absolute;
     top: -56px;
-    left: 2px;
+    left: -2px;
     width: auto;
     padding: 8px 20px;
  }
