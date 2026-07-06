@@ -428,7 +428,7 @@ text-align: center;
  }
 
  .Store-interior{
-    margin-top: 1000px;
+    margin-top: 1000px !important;
  }
 
  .heads-up{
@@ -447,7 +447,7 @@ text-align: center;
  .type-of-dog{
     overflow-y: scroll;
     overflow-y: visible;
-    scroll-behavior: smooth;
+    
  }
  
  .dogs-slider-wrapper {
@@ -460,7 +460,7 @@ text-align: center;
 
  .dogs-cast{
     flex-shrink: 0;
-    width: 100vw;
+    width: 80vw;
  }
 
  .dogs {
@@ -526,7 +526,7 @@ text-align: center;
  .Store-interior-title{
     font-size: 15px;
     position: absolute;
-    top: -20px;
+    top: -35px;
     left: 0;
     width: auto;
     padding: 8px 20px;
@@ -538,7 +538,7 @@ text-align: center;
 
   .Operating-hours {
    font-size: 16px;
-   margin-top: 20px;
+   margin-top: 20px !important;
  }
 
  .interior {
@@ -567,7 +567,6 @@ text-align: center;
   .dog-footprints {
    width: 150px;
    bottom: 0;
-   margin-top: -400px;
  }
 
  .Contact-title{
@@ -586,5 +585,12 @@ text-align: center;
     font-size: 17px;
  }
 
+ .total-price{
+    margin-bottom: 0;
+ }
 
+.site-footer{
+    margin-top: 0;
+    padding: 10px;
+}
 }
