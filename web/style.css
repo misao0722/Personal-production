@@ -393,6 +393,8 @@ text-align: center;
  body {
    font-size: 14px;
    overflow-x: hidden;
+   width: 100%;
+   overflow-x: hidden;
  }
  .container {
    width: 100%;
@@ -445,6 +447,7 @@ text-align: center;
  .type-of-dog{
     overflow-y: scroll;
     overflow-y: visible;
+    scroll-behavior: smooth;
  }
  
  .dogs-slider-wrapper {
@@ -522,11 +525,10 @@ text-align: center;
 
  .Store-interior-title{
     font-size: 15px;
-    position: static;
-    top: 0;
+    position: absolute;
+    top: -20px;
     left: 0;
     width: auto;
-    margin-bottom: 15px;
     padding: 8px 20px;
  }
 
@@ -565,6 +567,7 @@ text-align: center;
   .dog-footprints {
    width: 150px;
    bottom: 0;
+   margin-top: -400px;
  }
 
  .Contact-title{
@@ -582,4 +585,6 @@ text-align: center;
  .Cooking-details{
     font-size: 17px;
  }
+
+
 }
