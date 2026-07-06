@@ -434,7 +434,7 @@ text-align: center;
  }
 
  .Store-interior-content{
-    margin-top: 30px;
+    margin-top: 50px;
  }
 
  .heads-up{
@@ -537,7 +537,7 @@ text-align: center;
     font-size: 15px;
     position: absolute;
     top: -56px;
-    left: -2px;
+    left: -3px;
     width: auto;
     padding: 8px 20px;
  }
