@@ -439,8 +439,15 @@ text-align: center;
  }
  
  .dogs-slider-wrapper {
-   flex-direction: column;
+   flex-direction: row;
+   overflow-x: scroll;
  }
+
+ .dogs-cast{
+    flex-shrink: 0;
+    width: 80vw;
+ }
+
  .dogs {
    width: 100%;
  }
@@ -453,6 +460,14 @@ text-align: center;
    margin-top: 0;
  }
  
+ .section-title{
+    margin-top: 20px;
+ }
+
+ .all-menus{
+    width: 100%;
+ }
+
  .map {
    width: 100%;
    height: auto;
@@ -485,15 +500,18 @@ text-align: center;
 
  .Store-interior{
     margin-top: 100px;
+    padding: 20;
+
  }
 
  .Store-interior-title{
-    font-size: 10px;
+    font-size: 15px;
     position: static;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
     margin-bottom: 15px;
+    padding: 8px 20px;
  }
 
  .Store-interior-explanation{
