@@ -428,7 +428,7 @@ text-align: center;
  }
 
  .Store-interior{
-    margin-top: 1000px !important;
+    margin-top: 40px !important;
  }
 
  .heads-up{
@@ -445,7 +445,7 @@ text-align: center;
  }
 
  .type-of-dog{
-    overflow-y: scroll;
+    overflow-x: scroll;
     overflow-y: visible;
     
  }
@@ -518,7 +518,7 @@ text-align: center;
  }
 
  .Store-interior{
-    margin-top: 100px;
+    margin-top: 40px;
     padding: 20;
 
  }
@@ -526,7 +526,7 @@ text-align: center;
  .Store-interior-title{
     font-size: 15px;
     position: absolute;
-    top: -35px;
+    top: -45px;
     left: 0;
     width: auto;
     padding: 8px 20px;
