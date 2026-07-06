@@ -437,18 +437,23 @@ text-align: center;
    height: 300px;
    object-fit: cover;
  }
+
+ .type-of-dog{
+    overflow-y: scroll;
+    overflow-y: hidden;
+ }
  
  .dogs-slider-wrapper {
    flex-direction: row;
    overflow-x: scroll;
    flex-wrap: nowrap;
-   width: 100%;
+   width: max-content;
 
  }
 
  .dogs-cast{
     flex-shrink: 0;
-    width: 90vw;
+    width: 100vw;
  }
 
  .dogs {
@@ -460,11 +465,11 @@ text-align: center;
  }
 
  .grand-menu-content {
-   margin-top: 0;
+   margin-top: 0 !important;
  }
  
  .section-title{
-    margin-top: 20px;
+    margin-top: 20px !important;
  }
 
  .all-menus{
@@ -536,7 +541,11 @@ text-align: center;
  }
 
  .grand-menu {
-   margin-top: 0;
+   margin-top: 0 !important;
+ }
+
+ .all-menus{
+    width: 90vw;
  }
 
   .cop {
@@ -546,6 +555,10 @@ text-align: center;
   .dog-footprints {
    width: 150px;
    bottom: 0;
+ }
+
+ .Contact-title{
+    font-size: 15px;
  }
 
  .Recommended-menu-wrapper{
