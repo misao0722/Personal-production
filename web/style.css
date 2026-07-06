@@ -441,11 +441,14 @@ text-align: center;
  .dogs-slider-wrapper {
    flex-direction: row;
    overflow-x: scroll;
+   flex-wrap: nowrap;
+   width: 100%;
+
  }
 
  .dogs-cast{
     flex-shrink: 0;
-    width: 80vw;
+    width: 90vw;
  }
 
  .dogs {
@@ -543,5 +546,9 @@ text-align: center;
   .dog-footprints {
    width: 150px;
    bottom: 0;
+ }
+
+ .Recommended-menu-wrapper{
+    grid-template-columns: 1fr;
  }
 }
