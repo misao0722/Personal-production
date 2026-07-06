@@ -428,6 +428,10 @@ text-align: center;
  .Store-interior{
     margin-top: 1000px;
  }
+
+ .heads-up{
+    font-size: 16px;
+ }
  
  .Recommended-menu-wrapper {
    flex-direction: column;
@@ -440,12 +444,12 @@ text-align: center;
 
  .type-of-dog{
     overflow-y: scroll;
-    overflow-y: hidden;
+    overflow-y: visible;
  }
  
  .dogs-slider-wrapper {
    flex-direction: row;
-   overflow-x: scroll;
+   display: flex;
    flex-wrap: nowrap;
    width: max-content;
 
@@ -470,6 +474,9 @@ text-align: center;
  
  .section-title{
     margin-top: 20px !important;
+    width: 100%;
+    box-sizing: border-box;
+
  }
 
  .all-menus{
@@ -483,10 +490,11 @@ text-align: center;
 
   .rogo {
    width: 200px;
-   margin-top: 80px;
+   margin-top: 30px;
  }
 
   .lead-center {
+    position: static;
    font-size: 13px;
    font-weight: bold;
    top: 0;
@@ -542,6 +550,8 @@ text-align: center;
 
  .grand-menu {
    margin-top: 0 !important;
+   width: 100%;
+   box-sizing: border-box;
  }
 
  .all-menus{
@@ -563,5 +573,13 @@ text-align: center;
 
  .Recommended-menu-wrapper{
     grid-template-columns: 1fr;
+ }
+
+ .price{
+    text-align: center;
+ }
+
+ .Cooking-details{
+    font-size: 17px;
  }
 }
